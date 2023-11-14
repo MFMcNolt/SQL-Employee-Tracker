@@ -1,7 +1,7 @@
 console.log('Script is running...');
 
 const inquirer = require('inquirer');
-const mysql = require('mysql2/promise');
+const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
     host: '127.0.0.1',
@@ -73,6 +73,13 @@ function startApp() {
     });
 }
 
+// Function to handle application exit
+function exitApp() {
+  console.log('Exiting application. Goodbye!');
+  connection.end();
+  process.exit(); // Exit the Node.js process
+}
+
 // Function to view all departments
 function viewAllDepartments() {
   const query = 'SELECT * FROM department';
@@ -100,7 +107,7 @@ function viewAllRoles() {
 // Function to view all employees
 function viewAllEmployees() {
   const query =
-    'SELECT employee.id, first_name, last_name, title, salary, department.name AS department, ' +
+    'SELECT employee.id, employee.first_name, employee.last_name, role.title, role.salary, department.name AS department, ' +
     'CONCAT(manager.first_name, " ", manager.last_name) AS manager ' +
     'FROM employee ' +
     'JOIN role ON employee.role_id = role.id ' +
