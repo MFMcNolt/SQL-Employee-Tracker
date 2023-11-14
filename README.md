@@ -13,53 +13,66 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Features](#features)
 - [License](#license)
+- [Contribute](#contribute)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the cloned directory
+3. Run npm install to install dependencies including Inquirer and MySql2
+4. Set up a MySQL database and run the provided schema and seed files to populate your database.
+5. Update the mysql.createConnection in the index.js with your MySQL credentials.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+You can view a video run through of the app usage here: https://drive.google.com/file/d/1MyskA9_BZhlIxTGh05zFN1VOg2ufc85q/view?usp=drive_link
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To use the SQL Employee Tracker application, follow the steps below. I'll provide instructions for each available action along with examples:
+
+1. View all Departments, Roles, or Employees
+Choose the option to "View all departments," "View all roles," or "View all employees" from the main menu.
+The application will display a formatted table showing the relevant information.
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](/Users/marionfergusonmcnulty/Terminal/challenge/week12/SQL-Employee-Tracker/images/Screenshot 2023-11-14 at 1.29.14 pm.png)
     ```
 
-## Credits
+2. Add a Department, Role, or Employee
+Choose the option to "Add a department," "Add a role," or "Add an employee" from the main menu.
+Follow the prompts to enter the required information.
 
-List your collaborators, if any, with links to their GitHub profiles.
+```md
+    ![alt text](/images/Screenshot%202023-11-14%20at%201.29.44%20pm.png)
+    ```
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+3. Update an Employee Role
+Choose the option to "Update an employee role" from the main menu.
+Follow the prompts to select an employee and their new role.
 
-If you followed tutorials, include links to those here as well.
+```md
+    ![alt text](/images/Screenshot%202023-11-14%20at%201.40.16%20pm.png)
+    ```
 
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+4. Exit the Application
+Choose the option to "Exit" from the main menu.
 
 ## Features
 
-If your project has a lot of features, list them here.
+JavaScript
+jQuery
+Node.js
+Inquirer
+MySQL2
 
-## How to Contribute
+## License
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+This project is licensed under the MIT License.
 
-## Tests
+## Contribute
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Github: https://github.com/MFMcNolt/SQL-Employee-Tracker
+
