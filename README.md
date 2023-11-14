@@ -37,25 +37,20 @@ To use the SQL Employee Tracker application, follow the steps below. I'll provid
 Choose the option to "View all departments," "View all roles," or "View all employees" from the main menu.
 The application will display a formatted table showing the relevant information.
 
-    ```md
-    ![alt text](/Users/marionfergusonmcnulty/Terminal/challenge/week12/SQL-Employee-Tracker/images/Screenshot 2023-11-14 at 1.29.14 pm.png)
-    ```
+![my screenshot](<images/Screenshot 2023-11-14 at 1.29.14 pm.png>)
+
 
 2. Add a Department, Role, or Employee
 Choose the option to "Add a department," "Add a role," or "Add an employee" from the main menu.
 Follow the prompts to enter the required information.
 
-```md
-    ![alt text](/images/Screenshot%202023-11-14%20at%201.29.44%20pm.png)
-    ```
+![my screenshot](<images/Screenshot 2023-11-14 at 1.29.44 pm.png>)
 
 3. Update an Employee Role
 Choose the option to "Update an employee role" from the main menu.
 Follow the prompts to select an employee and their new role.
 
-```md
-    ![alt text](/images/Screenshot%202023-11-14%20at%201.40.16%20pm.png)
-    ```
+![my screenshot](<images/Screenshot 2023-11-14 at 1.40.16 pm.png>)
 
 4. Exit the Application
 Choose the option to "Exit" from the main menu.
